@@ -1,1 +1,0 @@
-../../../FirebaseUI/FirebaseUI/Auth/API/FirebasePasswordAuthProvider.h

@@ -1,7 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PODS_ROOT)/Firebase"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Firebase" "${PODS_ROOT}/Headers/Public/FirebaseUI"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Firebase"
-OTHER_CFLAGS = -DFIREBASEUI_ENABLE_PASSWORD_AUTH=1 $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Firebase" -isystem "${PODS_ROOT}/Headers/Public/FirebaseUI"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"Firebase" -l"FirebaseStatic" -l"FirebaseUI" -l"c++" -l"icucore" -framework "CFNetwork" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
+OTHER_CFLAGS = -DFIREBASEUI_ENABLE_PASSWORD_AUTH=1 $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/Firebase.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/FirebaseUI.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -ObjC -framework "Firebase" -framework "FirebaseUI"
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-RoastiOS
 PODS_ROOT = ${SRCROOT}/Pods

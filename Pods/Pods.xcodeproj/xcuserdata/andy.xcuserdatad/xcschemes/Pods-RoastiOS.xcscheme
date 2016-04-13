@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6E0919B3CDC2283C4D38C81C'
+               BlueprintIdentifier = 'B68CB200C07DB83289CAA0C5'
                BlueprintName = 'Pods-RoastiOS'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libPods-RoastiOS.a'>
+               BuildableName = 'Pods_RoastiOS.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
