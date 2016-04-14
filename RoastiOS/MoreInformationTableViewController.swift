@@ -31,22 +31,60 @@ class MoreInformationTableViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        if (indexPath.section == 1 && indexPath.row == 0) {
-            if (self.loginViewController.currentUser() == nil) {
-                self.presentViewController(self.loginViewController, animated: true, completion: nil)
+        
+        switch indexPath.section {
+        case 0: break
+        
+        case 1:
+            switch indexPath.row {
+            case 0:
+                if (self.loginViewController.currentUser() == nil) {
+                    self.presentViewController(self.loginViewController, animated: true, completion: nil)
+                }
+            case 1:
+                let alert = UIAlertController(title: "Registration", message: "Register a new account with email and password", preferredStyle: .Alert)
+                alert.addTextFieldWithConfigurationHandler {
+                    (emailField) -> Void in
+                    emailField.placeholder = "user@example.com"
+                }
+                alert.addTextFieldWithConfigurationHandler {
+                    (passwordField) -> Void in
+                    passwordField.placeholder = "Password"
+                    passwordField.secureTextEntry = true
+                }
+                alert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Confirm", style: .Default) {(action) in
+                    self.baseRef.createUser(alert.textFields?[0].text, password: alert.textFields?[1].text, withCompletionBlock: { (error) in
+                        self.baseRef.authUser(alert.textFields?[0].text, password: alert.textFields?[1].text, withCompletionBlock: {
+                            (error) in
+                            let profileRef = self.baseRef.childByAppendingPath("profile/" + self.baseRef.authData.uid)
+                            let defaultProfile = [
+                                "email": "",
+                                "fullname": "",
+                                "gtid": "",
+                                "major": ""
+                            ]
+                            profileRef.setValue(defaultProfile)
+                        })
+                        
+                    })
+                })
+                self.presentViewController(alert, animated: true, completion: nil)
+            case 2:
+                let alert = UIAlertController(title: "Logout?", message: "Are you sure you want to logout?", preferredStyle: .Alert)
+                alert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: nil))
+                alert.addAction(UIAlertAction(title: "Confirm", style: .Destructive) {(action) in
+                    if (self.loginViewController.currentUser() != nil) {
+                        self.loginViewController.logout()
+                    }
+                    })
+                self.presentViewController(alert, animated: true, completion: nil)
+            default:
+                break
             }
+        default: break
         }
         
-        if (indexPath.section == 1 && indexPath.row == 2) {
-            let alert = UIAlertController(title: "Logout?", message: "Are you sure you want to logout?", preferredStyle: .Alert)
-            alert.addAction(UIAlertAction(title: "Cancel", style: .Default, handler: nil))
-            alert.addAction(UIAlertAction(title: "Confirm", style: .Destructive) {(action) in
-                if (self.loginViewController.currentUser() != nil) {
-                    self.loginViewController.logout()
-                }
-            })
-            self.presentViewController(alert, animated: true, completion: nil)
-        }
         self.tableView.deselectRowAtIndexPath(indexPath, animated: true)
     }
 
