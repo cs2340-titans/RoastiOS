@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A13948071CBF404F0036E5FD /* MoreInformationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13948061CBF404F0036E5FD /* MoreInformationTableViewController.swift */; };
+		A13948091CBF68E90036E5FD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13948081CBF68E90036E5FD /* UserProfileViewController.swift */; };
 		A1CFDB7B1CBEE2B5004F4AE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFDB7A1CBEE2B5004F4AE6 /* LoginViewController.swift */; };
 		A1CFDB7D1CBEF33E004F4AE6 /* MasterNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFDB7C1CBEF33E004F4AE6 /* MasterNavigationViewController.swift */; };
 		A1D5BECB1CBEB11400218CB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5BECA1CBEB11400218CB0 /* User.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		977F3A518302C47BDDB2BB53 /* Pods-RoastiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoastiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoastiOS/Pods-RoastiOS.release.xcconfig"; sourceTree = "<group>"; };
+		A13948061CBF404F0036E5FD /* MoreInformationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreInformationTableViewController.swift; sourceTree = "<group>"; };
+		A13948081CBF68E90036E5FD /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
 		A1CFDB7A1CBEE2B5004F4AE6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A1CFDB7C1CBEF33E004F4AE6 /* MasterNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterNavigationViewController.swift; sourceTree = "<group>"; };
 		A1D5BECA1CBEB11400218CB0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				A1D5BECA1CBEB11400218CB0 /* User.swift */,
 				A1CFDB7A1CBEE2B5004F4AE6 /* LoginViewController.swift */,
 				A1CFDB7C1CBEF33E004F4AE6 /* MasterNavigationViewController.swift */,
+				A13948061CBF404F0036E5FD /* MoreInformationTableViewController.swift */,
+				A13948081CBF68E90036E5FD /* UserProfileViewController.swift */,
 			);
 			path = RoastiOS;
 			sourceTree = "<group>";
@@ -223,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13948071CBF404F0036E5FD /* MoreInformationTableViewController.swift in Sources */,
+				A13948091CBF68E90036E5FD /* UserProfileViewController.swift in Sources */,
 				A1D5BECB1CBEB11400218CB0 /* User.swift in Sources */,
 				A1FF1CDC1CB47CDB0018D951 /* SecondViewController.swift in Sources */,
 				A1FF1CD81CB47CDA0018D951 /* AppDelegate.swift in Sources */,

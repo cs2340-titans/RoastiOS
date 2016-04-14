@@ -19,6 +19,7 @@ class MasterNavigationViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        /*
         let firebaseRef = Firebase(url: "https://roast-potato.firebaseio.com/")
         self.loginViewController = FirebaseLoginViewController(ref: firebaseRef)
         self.loginViewController.enableProvider(FAuthProvider.Password)
@@ -33,15 +34,18 @@ class MasterNavigationViewController: UITabBarController {
             }
             
         }
+         */
     }
     
     override func viewDidAppear(animated: Bool) {
+        /*
         if ((self.loginViewController.currentUser() == nil)) {
             self.presentViewController(self.loginViewController, animated: true, completion: nil)
         } else {
             self.currentUser = User(authData: self.loginViewController.currentUser())
             print(self.currentUser.email)
         }
+        */
     }
     
     override func didReceiveMemoryWarning() {
