@@ -261,7 +261,7 @@
         <scene sceneID="XMF-rR-qIa">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UM3-fa-Om3" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="eRW-vl-iMd"/>
+                    <tabBarItem key="tabBarItem" systemItem="featured" id="eRW-vl-iMd"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="dWe-Ou-MoB">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -299,7 +299,7 @@
         <scene sceneID="yF8-JV-bRI">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Qlh-8s-fku" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" systemItem="featured" id="4TV-Ag-FqN"/>
+                    <tabBarItem key="tabBarItem" systemItem="topRated" id="4TV-Ag-FqN"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bpX-Cd-jgd">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
