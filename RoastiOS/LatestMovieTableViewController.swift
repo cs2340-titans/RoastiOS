@@ -47,7 +47,9 @@ class LatestMovieTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("defaultMovieCell", forIndexPath: indexPath)
             //UITableViewCell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
+
         if let movieTitle = self.items[indexPath.row]["title"] as! String? {
+            print(self.items[indexPath.row])
             cell.textLabel!.text = movieTitle
         } else {
             cell.textLabel!.text = "No Name"
@@ -56,6 +58,13 @@ class LatestMovieTableViewController: UITableViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        print(segue)
+        if (segue.identifier == "ShowDetail") {
+            let targetView = segue.destinationViewController as! MovieDetailViewController
+            if let selectedCell = sender as? UITableViewCell {
+                let index = self.tableView.indexPathForCell(selectedCell)
+                let values = self.items[(index?.row)!]
+                targetView.movie = Movie(title: values["title"] as! String?, id: values["id"] as! String?)
+            }
+        }
     }
 }

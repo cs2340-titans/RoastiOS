@@ -4,6 +4,7 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
     </dependencies>
     <scenes>
         <!--Latest Movies-->
@@ -23,7 +24,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ykJ-XY-FCS" kind="show" identifier="ShowDetail" id="G0x-Sa-kH4"/>
+                                    <segue destination="ykJ-XY-FCS" kind="show" identifier="ShowDetail" id="G0x-Sa-kH4">
+                                        <segue key="commit" inheritsFrom="parent" id="oFX-e5-iGG"/>
+                                        <segue key="preview" inheritsFrom="commit" id="y88-a4-gML"/>
+                                    </segue>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -64,7 +68,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="ykJ-XY-FCS" kind="show" identifier="ShowDetail" id="xz4-mP-iPs"/>
+                                    <segue destination="ykJ-XY-FCS" kind="show" identifier="ShowDetail" id="xz4-mP-iPs">
+                                        <segue key="commit" inheritsFrom="parent" id="aud-Bk-gnF"/>
+                                        <segue key="preview" inheritsFrom="commit" id="D2R-Yo-jKj"/>
+                                    </segue>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -88,7 +95,7 @@
             </objects>
             <point key="canvasLocation" x="1562" y="362"/>
         </scene>
-        <!--Movie Detail View Controller-->
+        <!--MovieTitle-->
         <scene sceneID="POb-Yu-Ojm">
             <objects>
                 <viewController id="ykJ-XY-FCS" customClass="MovieDetailViewController" customModule="RoastiOS" customModuleProvider="target" sceneMemberID="viewController">
@@ -100,14 +107,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MovieName" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9b7-5E-dKk">
-                                <rect key="frame" x="20" y="104" width="560" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" keyboardDismissMode="interactive" text="This is a sample movie review" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Ffp-QR-2tW">
+                                <rect key="frame" x="60" y="176" width="480" height="200"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="gOR-QA-CLC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="70k-kR-EJY" customClass="CosmosView" customModule="Cosmos">
-                                <rect key="frame" x="190" y="230" width="220" height="44"/>
+                                <rect key="frame" x="190" y="97" width="220" height="44"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="starSize">
@@ -118,13 +129,18 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ffp-QR-2tW" secondAttribute="trailing" constant="40" id="2TB-jT-UjJ"/>
                             <constraint firstItem="70k-kR-EJY" firstAttribute="centerX" secondItem="8ug-Kh-XDE" secondAttribute="centerX" id="3a2-tY-LRD"/>
-                            <constraint firstItem="9b7-5E-dKk" firstAttribute="leading" secondItem="8ug-Kh-XDE" secondAttribute="leadingMargin" id="LdW-uo-z4C"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="9b7-5E-dKk" secondAttribute="trailing" id="NOl-Tc-AeI"/>
-                            <constraint firstItem="9b7-5E-dKk" firstAttribute="top" secondItem="Wxn-xZ-wPg" secondAttribute="bottom" constant="40" id="lzb-g5-sSS"/>
+                            <constraint firstItem="Ffp-QR-2tW" firstAttribute="leading" secondItem="8ug-Kh-XDE" secondAttribute="leadingMargin" constant="40" id="Lec-6t-mNb"/>
+                            <constraint firstItem="Ffp-QR-2tW" firstAttribute="top" secondItem="70k-kR-EJY" secondAttribute="bottom" constant="35" id="fR0-yn-GU0"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="LOu-iM-ueL"/>
+                    <navigationItem key="navigationItem" title="MovieTitle" id="V7y-Xn-sdR"/>
+                    <connections>
+                        <outlet property="movieRating" destination="70k-kR-EJY" id="J5O-B3-yzY"/>
+                        <outlet property="navbar" destination="V7y-Xn-sdR" id="3zk-76-mI9"/>
+                        <outlet property="review" destination="Ffp-QR-2tW" id="ySz-ge-jai"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J1B-vD-BLp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

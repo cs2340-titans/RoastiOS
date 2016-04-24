@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EEBDFFDFB7904235F0B4C945'
+               BlueprintIdentifier = '1DE49CDBB847A83A61A97D53'
                BlueprintName = 'Pods-RoastiOS'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_RoastiOS.framework'>

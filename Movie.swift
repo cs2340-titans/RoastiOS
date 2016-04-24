@@ -9,7 +9,11 @@
 import Foundation
 
 class Movie {
-    let title: String! = nil
-    let rating: Double! = nil
-    let id: Int! = nil
+    var title: String! = nil
+    var id: String! = nil
+    
+    init(title: String!, id: String!) {
+        self.title = title
+        self.id = id
+    }
 }
