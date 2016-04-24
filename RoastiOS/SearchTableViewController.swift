@@ -8,15 +8,33 @@
 
 import UIKit
 
-class SearchTableViewController: UITableViewController {
+class SearchTableViewController: UITableViewController, UISearchBarDelegate {
     var items: NSMutableArray = []
     
     @IBOutlet weak var refresher: UIRefreshControl!
+    @IBOutlet weak var sbContent: UISearchBar!
+    
     @IBAction func refresh(sender: AnyObject) {
         reload()
     }
+    
     func reload() {
         let api = RemoteAPI(type: "dvd", query: nil)
+        api.getData({data, error -> Void in
+            if (data != nil) {
+                self.items = NSMutableArray(array: data)
+                self.tableView!.reloadData()
+            } else {
+                print("api.getData failed")
+                print(error)
+            }
+            self.refresher.endRefreshing()
+        })
+    }
+    
+    func research(query: String!) {
+        self.refresher.beginRefreshing()
+        let api = RemoteAPI(type: "search", query: query)
         api.getData({data, error -> Void in
             if (data != nil) {
                 self.items = NSMutableArray(array: data)
@@ -34,7 +52,13 @@ class SearchTableViewController: UITableViewController {
         self.tableView!.delegate = self
         self.tableView!.dataSource = self
         self.tableView!.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        self.sbContent!.delegate = self
         reload()
+    }
+    
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
+        self.research(searchBar.text!)
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -44,7 +68,7 @@ class SearchTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("defaultMovieCell", forIndexPath: indexPath)
         //UITableViewCell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
-        print(self.items[indexPath.row])
+        // print(self.items[indexPath.row])
         if let movieTitle = self.items[indexPath.row]["title"] as! String? {
             cell.textLabel!.text = movieTitle
         } else {
@@ -63,5 +87,5 @@ class SearchTableViewController: UITableViewController {
             }
         }
     }
-
 }
+

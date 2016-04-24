@@ -49,7 +49,7 @@ class LatestMovieTableViewController: UITableViewController {
             //UITableViewCell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
 
         if let movieTitle = self.items[indexPath.row]["title"] as! String? {
-            print(self.items[indexPath.row])
+            // print(self.items[indexPath.row])
             cell.textLabel!.text = movieTitle
         } else {
             cell.textLabel!.text = "No Name"
