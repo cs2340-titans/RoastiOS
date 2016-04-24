@@ -16,6 +16,7 @@
 		A14811AB1CC0A73000E7D5FB /* LatestDVDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14811AA1CC0A73000E7D5FB /* LatestDVDTableViewController.swift */; };
 		A16B99661CCD55AA00ABE27F /* MovieRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B99651CCD55AA00ABE27F /* MovieRating.swift */; };
 		A16B99681CCD655E00ABE27F /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B99671CCD655E00ABE27F /* SearchTableViewController.swift */; };
+		A16B996A1CCD771100ABE27F /* RecommendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16B99691CCD771100ABE27F /* RecommendViewController.swift */; };
 		A1CFDB7B1CBEE2B5004F4AE6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFDB7A1CBEE2B5004F4AE6 /* LoginViewController.swift */; };
 		A1CFDB7D1CBEF33E004F4AE6 /* MasterNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFDB7C1CBEF33E004F4AE6 /* MasterNavigationViewController.swift */; };
 		A1D5BECB1CBEB11400218CB0 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D5BECA1CBEB11400218CB0 /* User.swift */; };
@@ -39,6 +40,7 @@
 		A14811AA1CC0A73000E7D5FB /* LatestDVDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestDVDTableViewController.swift; sourceTree = "<group>"; };
 		A16B99651CCD55AA00ABE27F /* MovieRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieRating.swift; sourceTree = "<group>"; };
 		A16B99671CCD655E00ABE27F /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		A16B99691CCD771100ABE27F /* RecommendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendViewController.swift; sourceTree = "<group>"; };
 		A1CFDB7A1CBEE2B5004F4AE6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A1CFDB7C1CBEF33E004F4AE6 /* MasterNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterNavigationViewController.swift; sourceTree = "<group>"; };
 		A1D5BECA1CBEB11400218CB0 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				A14811AA1CC0A73000E7D5FB /* LatestDVDTableViewController.swift */,
 				A16B99651CCD55AA00ABE27F /* MovieRating.swift */,
 				A16B99671CCD655E00ABE27F /* SearchTableViewController.swift */,
+				A16B99691CCD771100ABE27F /* RecommendViewController.swift */,
 			);
 			path = RoastiOS;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14811A71CC0971800E7D5FB /* RemoteAPI.swift in Sources */,
+				A16B996A1CCD771100ABE27F /* RecommendViewController.swift in Sources */,
 				A13948071CBF404F0036E5FD /* MoreInformationTableViewController.swift in Sources */,
 				A13948091CBF68E90036E5FD /* UserProfileViewController.swift in Sources */,
 				A1D5BECB1CBEB11400218CB0 /* User.swift in Sources */,
