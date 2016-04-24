@@ -13,5 +13,6 @@ target 'RoastiOS' do
     # pod 'FirebaseUI/Google', '~> 0.3.2'
     # pod 'FirebaseUI/Twitter', '~> 0.3.2'
     pod 'FirebaseUI/Password', '~> 0.3.2'
+    pod 'Cosmos', '~> 1.2'
 end
 

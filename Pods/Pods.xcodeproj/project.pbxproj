@@ -13,31 +13,29 @@
 		<key>012A7E018F3D34F159894EBD7EACACF9</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2A65ADDCAA2A1637302D2330B64BB0D2</string>
+			<string>5E6B63DEA7BE8E0C4FE0C05039BB0A5F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>016C0C19BED28DC0F34F9F55DB78BAE7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseAppDelegate.h</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebaseAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>03C637CD5CAA6EF75C7E3A36181D6A3C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8D869C8671BC360FFB4B9A4BB2A635DF</string>
+			<string>57209AF1D94AE3E14ED01C5CBC349F8F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>03E4FBEA6F75BC7157129A59E9AB2604</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>608B49B5DDACC601EE8044A1931993F9</string>
+			<key>remoteInfo</key>
+			<string>Cosmos</string>
 		</dict>
 		<key>03EA94BAEA599FCD94E85484EA4F20BB</key>
 		<dict>
@@ -63,7 +61,101 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>063DC7F657BD55410D6C15F1ED04B29B</key>
+		<key>04A7906D2CF9D5B29AF1F8AB7911271E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Cosmos-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>04B040FCA0077D851B4EEB91C5ABCA44</key>
+		<dict>
+			<key>fileRef</key>
+			<string>ABAD4A2F8C3D150C75FDF0274B9CD1D5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0AE599EC576B224D79DA62EE142A9E79</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0CF37B7AAEA7EB41FB506320B9F14EBD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>272FB34C58F891DBCA1AE3D50F27A85F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0DF98CBDC490DDB4105103AE5733DB47</key>
+		<dict>
+			<key>fileRef</key>
+			<string>217045D94C5701EA84AF8F7994287E43</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0F0261DFC5B5B140895BD20EF79D4F7B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseLoginViewController.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Implementation/FirebaseLoginViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1004929348836E14305779DFBE8FFCC6</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>FF3D69CD1A14263D60519FBC6443BC4F</string>
+				<string>363B84588C92A74474D52D3C091E1BD9</string>
+				<string>649F583A5D005C839DE9BC6A13B05E8C</string>
+				<string>F53444DE52C42EFBE0C93A78625D1448</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>FirebaseUI</string>
+			<key>path</key>
+			<string>FirebaseUI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>10435AED2B4DF4E0200D629F3D9E317B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -78,7 +170,95 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>07C8CFBEEF335FFB03633516A88C000A</key>
+		<key>109A7FE1C21D12924B547E93D4CB494A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>500033F7B845FF823DAD680772471FFD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>14900DB84C9D485B361E304F4B64729D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C84B0AB8817552C174924C43A7B1A786</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>15A4EBB3E875D1081C61E174F826AB38</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Firebase-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16176D451E1B24E1646E67112DE269C9</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>C00E0D4692F6BADBDC4CFE77F3B167F6</string>
+			<key>remoteInfo</key>
+			<string>FirebaseUI</string>
+		</dict>
+		<key>17CAC68EB327075E7032F532AADC0BA7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0F0261DFC5B5B140895BD20EF79D4F7B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>18C41161E1A5C8548DE81302F862CAEF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3A1A66153334579D1ABD0CC6D06E52E5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>191DE2EB9A35585AE0A88BA9F833A1F4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>49B4206BDAA0E170F66826E8E8F48E3D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>1A0100C0A7E35FA3DABC2ED613B14298</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>FirebaseUI.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1A2267BB6CCAB7BBA2F0126FAEF3AD86</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -93,214 +273,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0AA1C6FD3A5E2FE60F59A657A59FD469</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FMutableData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0B4B29023ED434453ED08E877E02C10C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>66538CE9CB8CE00B3DF18005DBD37971</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>0C775FCA0B01B360980371FD653864ED</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E04911B3E5627830B7CFEAFA7165DCA</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0CF37B7AAEA7EB41FB506320B9F14EBD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1AD80C86AE4AC2A017C535694D7F047E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0D1E13651B725E407D24EE4ABA26838F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Firebase-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0DF98CBDC490DDB4105103AE5733DB47</key>
-		<dict>
-			<key>fileRef</key>
-			<string>217045D94C5701EA84AF8F7994287E43</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0F91242A3623A7EDE7599EE44E7E2C9D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>FirebaseLoginViewController.xib</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/Resources/FirebaseLoginViewController.xib</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>109A7FE1C21D12924B547E93D4CB494A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F600C0C8034E6915AA3865C0C37D5425</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>14900DB84C9D485B361E304F4B64729D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B2FEC085E025BB0C5A359BFC2B49607</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>175C5A957F36363282804BE8B775880C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Firebase.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17CAC68EB327075E7032F532AADC0BA7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DAF6BAB2E80EB63CA5D5D42C42808193</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18C41161E1A5C8548DE81302F862CAEF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>53C7804A2C48BA7DC336B0B4D530972B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>18F9ACC22E6DCBC0254618D174366ED9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Firebase.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>191DE2EB9A35585AE0A88BA9F833A1F4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>24F56843860C11DE030583EE703229D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>1A4633394F5335F729F404A157827D86</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>016C0C19BED28DC0F34F9F55DB78BAE7</string>
-				<string>9DBFCE5E2853868F0871183A25B334F8</string>
-				<string>1AD80C86AE4AC2A017C535694D7F047E</string>
-				<string>F600C0C8034E6915AA3865C0C37D5425</string>
-				<string>9ADB4075E969429094AEF3E7D4ADDA4E</string>
-				<string>063DC7F657BD55410D6C15F1ED04B29B</string>
-				<string>39D6E15228F2049C2BAF7FAEF34505AD</string>
-				<string>53E668ACF564C5236997B95C6E39F848</string>
-				<string>76FDCE4CE5FE7BBC85059A885EB37BE8</string>
-				<string>938A00F01B5CD26B1ABAADDEF740109B</string>
-				<string>DAF6BAB2E80EB63CA5D5D42C42808193</string>
-				<string>FF0012092BCC79AA463BF3432AD4B006</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>AuthHelper</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1AD80C86AE4AC2A017C535694D7F047E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseAuthConstants.h</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebaseAuthConstants.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1BB5C4DA387D1402C3F62BF1619C90A8</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6F766A6599D052C325B829CF98547B35</string>
-				<string>E24EFBADB0FA52DF44025054653350CC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Password</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1C04A7CD5B70C4561F6D98C882731C65</key>
 		<dict>
 			<key>fileRef</key>
@@ -311,7 +283,7 @@
 		<key>1C3EF85CD30E6FF2E51471BD5B3CEB29</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9DA374E0B66CC5B4A21A438B8FF70FF4</string>
+			<string>B2615143D9DE6453C4E03FF98B51AA67</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -322,38 +294,10 @@
 				</array>
 			</dict>
 		</dict>
-		<key>1CCC465977B19110CC61851C3E540260</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Firebase-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1D5CBA62A79A47FEB130F718004837CD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FirebaseCollectionViewDataSource.m</string>
-			<key>path</key>
-			<string>FirebaseUI/Core/Implementation/FirebaseCollectionViewDataSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>1D925BB011B04DDED982C7946571A67A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>92A9233FDB219D533010C14D463911E1</string>
+			<string>A480A518879D6A36CA63D35E7F76F02E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -367,7 +311,7 @@
 		<key>1D9D7FF5237C8CC91EF58DC45AC274FB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>3C8C355652425FA06B847CC4DC40C865</string>
+			<string>85DDECBDE62D9646D634EE919ED77DB2</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -385,7 +329,7 @@
 		<key>1DE7C86EF2F3BB1AB431B2B2F7DF934B</key>
 		<dict>
 			<key>fileRef</key>
-			<string>938A00F01B5CD26B1ABAADDEF740109B</string>
+			<string>38A82DA6FDB924402A18030E50E79421</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -396,31 +340,32 @@
 				</array>
 			</dict>
 		</dict>
-		<key>1E00C795F872689AFA285E2330BE341F</key>
+		<key>1FDBD95DDC727F5A613E457CBE723EC7</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>2A65ADDCAA2A1637302D2330B64BB0D2</string>
-				<string>7950BDA8B446C82F7A6A57BE2C961290</string>
-				<string>92A9233FDB219D533010C14D463911E1</string>
-				<string>CE62BAB1EBE477990D539C1D13359CC5</string>
-				<string>51F6B5FEE45D5E58A7DF86B49BEEB6C9</string>
-				<string>2A479F7AFF580113D4B85F81AF526DFD</string>
-				<string>9DA374E0B66CC5B4A21A438B8FF70FF4</string>
-				<string>F17ECC6089F40FC4596F003E8A912E6E</string>
-				<string>688A7935A9B8DE22442738115589EDA2</string>
-				<string>0AA1C6FD3A5E2FE60F59A657A59FD469</string>
-				<string>9A11E83DD44E7C33653E9D6A3CA0174B</string>
-				<string>24F56843860C11DE030583EE703229D9</string>
-				<string>524AFB1E6EBAE4CDF72DFE603CE9ADC2</string>
-				<string>2D03A7B3E8891BDA430A429B2278BAF1</string>
+				<string>A5560D545C7EFF13F4B92BB9EF789244</string>
+				<string>28D3BDE0ADD98F073691EC2599A86F45</string>
+				<string>DE5AF1D4CC7025B07F162C3A243747F2</string>
+				<string>4AD45CA0D0078A78A1F5543FE118DCEF</string>
+				<string>2F5E1913BEEADF089CDC68C8A7C7F8FF</string>
+				<string>A70C9C8A5E2226ACA03E6CBDF5AF1650</string>
+				<string>7451744A27C58C77FCF11C00FE610A6C</string>
+				<string>D2BBA8E93B0B0CD584F34F2C37496E9F</string>
+				<string>39230406E38F896E636FBE6CB68D01EF</string>
+				<string>B5AF957F6EFF4389E8FAD5FF8B3D7324</string>
+				<string>8059950542BBA0CC39BC7F58384CF8DA</string>
+				<string>33D2584F5C8AA7C2070A8AC4781AECCD</string>
+				<string>8147CA6D57AA1E7ED225BEA54C8F13C1</string>
+				<string>B80FC1FD0D126DB1589A782B91266AD6</string>
+				<string>B500BBB5BD2593924C5F26E5B765C3B0</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Firebase</string>
+			<string>Cosmos</string>
 			<key>path</key>
-			<string>Firebase</string>
+			<string>Cosmos</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -486,10 +431,24 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
+		<key>227182790ECBCA9F05EBE542662DC4F2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E04911B3E5627830B7CFEAFA7165DCA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>2336A7F0F45440935556D3DDAC798E27</key>
+		<dict>
+			<key>fileRef</key>
+			<string>DE5AF1D4CC7025B07F162C3A243747F2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>239B10F388840841389B7F09648735B1</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2A479F7AFF580113D4B85F81AF526DFD</string>
+			<string>9B106EB7FBC6CCEAE4F868C5F5C46497</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -503,7 +462,7 @@
 		<key>2400DDD44FDA052FAB88AF26BAA96163</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F1B41C9570B7886F17BDECDAA8B0B79B</string>
+			<string>3F7B6C139BC18D344FB10A8545050E28</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -514,66 +473,18 @@
 				</array>
 			</dict>
 		</dict>
-		<key>24F56843860C11DE030583EE703229D9</key>
+		<key>24D6B95BF976A6D0450D414E5AF412FF</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FTransactionResult.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>268425EFE08EE394EBCC660FA930E9D0</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3AC7B736BA3AB5CACEA05FBAFBE2FE98</string>
-				<string>8C0EB7D6876C5E259AE346981A3AA5C4</string>
-				<string>8802B6B5BF1160C1769E7686CCC5B50B</string>
-				<string>40718B2E5681AAE449EA2FCFA2BEE47E</string>
-				<string>D81CB859890FC8F50BEB918CEE36C437</string>
-				<string>B4EF4CC8F5F5F994B277FCD2BDFB21DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FirebaseUI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>FirebaseUI</string>
+			<key>target</key>
+			<string>C00E0D4692F6BADBDC4CFE77F3B167F6</string>
+			<key>targetProxy</key>
+			<string>16176D451E1B24E1646E67112DE269C9</string>
 		</dict>
-		<key>2A479F7AFF580113D4B85F81AF526DFD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FEventType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A65ADDCAA2A1637302D2330B64BB0D2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Empty.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2ABAD124D8EC30B86F968B7926810BCF</key>
+		<key>272FB34C58F891DBCA1AE3D50F27A85F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -582,33 +493,33 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FirebaseTableViewDataSource.h</string>
+			<string>FirebaseAuthConstants.h</string>
 			<key>path</key>
-			<string>FirebaseUI/Core/API/FirebaseTableViewDataSource.h</string>
+			<string>FirebaseUI/Auth/API/FirebaseAuthConstants.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2AD722D45805D540892897F197912E3E</key>
+		<key>28D3BDE0ADD98F073691EC2599A86F45</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>4B2FEC085E025BB0C5A359BFC2B49607</string>
-				<string>53C7804A2C48BA7DC336B0B4D530972B</string>
-				<string>966E75B7CB7C80F38A7D11A9B791FAF3</string>
-				<string>07C8CFBEEF335FFB03633516A88C000A</string>
-				<string>1D5CBA62A79A47FEB130F718004837CD</string>
-				<string>F1B41C9570B7886F17BDECDAA8B0B79B</string>
-				<string>D0DFE44A0073494898AA87CB0BBFAC06</string>
-				<string>2ABAD124D8EC30B86F968B7926810BCF</string>
-				<string>8D869C8671BC360FFB4B9A4BB2A635DF</string>
-				<string>D9FE6A879239F80D83E0A5A429889939</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>Core</string>
+			<string>CosmosDefaultSettings.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosDefaultSettings.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>299992941CFA463D0A7204190D39FA73</key>
+		<dict>
+			<key>fileRef</key>
+			<string>A70C9C8A5E2226ACA03E6CBDF5AF1650</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2B389FAB51F6EEA43F72CA7BDC8E8E28</key>
 		<dict>
@@ -683,26 +594,6 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2D03A7B3E8891BDA430A429B2278BAF1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>18F9ACC22E6DCBC0254618D174366ED9</string>
-				<string>175C5A957F36363282804BE8B775880C</string>
-				<string>3C8C355652425FA06B847CC4DC40C865</string>
-				<string>0D1E13651B725E407D24EE4ABA26838F</string>
-				<string>1CCC465977B19110CC61851C3E540260</string>
-				<string>736EEDFCC9BBDF6A99D5C2F726A77E69</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/Firebase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
 			<key>buildConfigurations</key>
@@ -734,7 +625,7 @@
 		<key>2F1496011DBBB75777645194AAAFE92D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F17ECC6089F40FC4596F003E8A912E6E</string>
+			<string>77D5DE12804A6B9E88DA421720B9A65B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -744,6 +635,79 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>2F5CAD8AA7E22B78B73735E2F42B4ABD</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>839FFAD07D666FF4C15C548B39899638</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Cosmos/Cosmos-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Cosmos/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Cosmos/Cosmos.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>Cosmos</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2F5E1913BEEADF089CDC68C8A7C7F8FF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosLocalizedRating.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosLocalizedRating.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>2FDCAAB615C287D16BF7F1F2AA978246</key>
 		<dict>
@@ -769,18 +733,60 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>32ED23BCC94D0CF32C30D461DCCBD52F</key>
+		<key>33D2584F5C8AA7C2070A8AC4781AECCD</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosView.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosView.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>35C71E7DAE4F134CF1B947E6D4E708FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5E04911B3E5627830B7CFEAFA7165DCA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>361220C1D499BB6C852F1B73B8E3BAD4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Cosmos.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>363B84588C92A74474D52D3C091E1BD9</key>
+		<dict>
+			<key>children</key>
 			<array>
-				<string>0C775FCA0B01B360980371FD653864ED</string>
+				<string>C84B0AB8817552C174924C43A7B1A786</string>
+				<string>3A1A66153334579D1ABD0CC6D06E52E5</string>
+				<string>64167F0C8C034031462CE8A76CC7E16F</string>
+				<string>1A2267BB6CCAB7BBA2F0126FAEF3AD86</string>
+				<string>7B2D75151D56F30CD00907ABB34B4D22</string>
+				<string>3F7B6C139BC18D344FB10A8545050E28</string>
+				<string>94F7F910579C8C81142E528E3A668C20</string>
+				<string>519AC7959F09012CA2CB41CE5D4ED9EE</string>
+				<string>57209AF1D94AE3E14ED01C5CBC349F8F</string>
+				<string>6C80F12B00E7D58C9045A224C3E2E1E9</string>
 			</array>
 			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Core</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>372681D3E77F7EF08DDC3FAEAE20BBC7</key>
 		<dict>
@@ -795,7 +801,37 @@
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
 		</dict>
-		<key>39D6E15228F2049C2BAF7FAEF34505AD</key>
+		<key>38A82DA6FDB924402A18030E50E79421</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseLoginViewController.h</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/API/FirebaseLoginViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>39230406E38F896E636FBE6CB68D01EF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosText.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosText.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3A1A66153334579D1ABD0CC6D06E52E5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -804,35 +840,18 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FirebaseAuthProvider.m</string>
+			<string>FirebaseArray.m</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebaseAuthProvider.m</string>
+			<string>FirebaseUI/Core/Implementation/FirebaseArray.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3AC7B736BA3AB5CACEA05FBAFBE2FE98</key>
+		<key>3E73DB65BEC900EFC6EC35C5F2A526B3</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>A5560D545C7EFF13F4B92BB9EF789244</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FirebaseUI.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C8C355652425FA06B847CC4DC40C865</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Firebase-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>3E97C8F9EA356BC5AC11E3C7C413B898</key>
 		<dict>
@@ -847,7 +866,29 @@
 			<key>remoteInfo</key>
 			<string>Firebase</string>
 		</dict>
-		<key>40718B2E5681AAE449EA2FCFA2BEE47E</key>
+		<key>3EFCCC931EFB340108AB20B34C9FD626</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B5AF957F6EFF4389E8FAD5FF8B3D7324</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>3F7B6C139BC18D344FB10A8545050E28</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseDataSource.h</string>
+			<key>path</key>
+			<string>FirebaseUI/Core/API/FirebaseDataSource.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F9A8E8D1D6A4A7B7D8BFDA59287029F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -856,7 +897,22 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FirebaseUI-prefix.pch</string>
+			<string>FQuery.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>42EDD910144FAF66E65C798B2EE1012D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseAppDelegate.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Implementation/FirebaseAppDelegate.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -870,6 +926,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>44A23105349D45BB5EE2A3BCBCBEDED7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Cosmos-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -914,20 +983,33 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>4A267DA4356F0E9A4E8C8EC6EA1F360E</key>
+		<key>49B4206BDAA0E170F66826E8E8F48E3D</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_RoastiOS.framework</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Pods_RoastiOS.framework</string>
+			<string>FTransactionResult.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4AD45CA0D0078A78A1F5543FE118DCEF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosLayers.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosLayers.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4B0EFAAA29109D9A705A27EFFA10FAE2</key>
 		<dict>
@@ -936,25 +1018,34 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>4B2FEC085E025BB0C5A359BFC2B49607</key>
+		<key>4B26FBE79C809DFE5A51A35CAB9F412F</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>Cosmos</string>
+			<key>target</key>
+			<string>608B49B5DDACC601EE8044A1931993F9</string>
+			<key>targetProxy</key>
+			<string>03E4FBEA6F75BC7157129A59E9AB2604</string>
+		</dict>
+		<key>4D23399E9EEED76F97E606031D33C6F2</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseArray.h</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>FirebaseUI/Core/API/FirebaseArray.h</string>
+			<string>Firebase.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4D75CF0089B20355B17A851513C4A002</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9A11E83DD44E7C33653E9D6A3CA0174B</string>
+			<string>3F9A8E8D1D6A4A7B7D8BFDA59287029F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -965,18 +1056,20 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4DCDA1CA668729474AE197284C8A3A19</key>
+		<key>500033F7B845FF823DAD680772471FFD</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
+			<key>includeInIndex</key>
 			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>B7AC9326D819482593FE118E915409D7</string>
-			<key>remoteInfo</key>
-			<string>Firebase</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseAuthConstants.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Implementation/FirebaseAuthConstants.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>508BCC208DDB173EE72530BF5BC47DBF</key>
 		<dict>
@@ -991,48 +1084,7 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>51F6B5FEE45D5E58A7DF86B49BEEB6C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FDataSnapshot.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>524AFB1E6EBAE4CDF72DFE603CE9ADC2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F95D0BA212524805DB392747D6274605</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53C7804A2C48BA7DC336B0B4D530972B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FirebaseArray.m</string>
-			<key>path</key>
-			<string>FirebaseUI/Core/Implementation/FirebaseArray.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>53E668ACF564C5236997B95C6E39F848</key>
+		<key>519AC7959F09012CA2CB41CE5D4ED9EE</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1041,16 +1093,42 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FirebaseLoginButton.h</string>
+			<string>FirebaseTableViewDataSource.h</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebaseLoginButton.h</string>
+			<string>FirebaseUI/Core/API/FirebaseTableViewDataSource.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>53CB964C79024A70D7ED55C4336658C2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Firebase.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>548D5FFD79763F8DD32E4C5E8381BDBA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>FirebaseUI.framework</string>
+			<key>path</key>
+			<string>FirebaseUI.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>557987FF65F81177193BA4ACFBEEA08C</key>
 		<dict>
 			<key>fileRef</key>
-			<string>9ADB4075E969429094AEF3E7D4ADDA4E</string>
+			<string>FE438C4A0534157A847673A14550B18E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1060,6 +1138,21 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>57209AF1D94AE3E14ED01C5CBC349F8F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseTableViewDataSource.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Core/Implementation/FirebaseTableViewDataSource.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>5A0C6FE968931D888F00C9EC18DDF5BC</key>
 		<dict>
@@ -1129,10 +1222,36 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>5BC81A7289025C02193E3262B13BF62F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>F05449B762824EC42C48AB817279B03B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5BF3376E9B3C6C4DDD30EC720563DAFD</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>5C11A011A38D573182AF2D5D5A3DC202</key>
 		<dict>
 			<key>fileRef</key>
-			<string>016C0C19BED28DC0F34F9F55DB78BAE7</string>
+			<string>8A00CA730FEEE810F5E35843A992DE65</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1159,7 +1278,7 @@
 		<key>5E2E7FFBF9EE9708C1332D245977DFB0</key>
 		<dict>
 			<key>fileRef</key>
-			<string>063DC7F657BD55410D6C15F1ED04B29B</string>
+			<string>10435AED2B4DF4E0200D629F3D9E317B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1169,18 +1288,83 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>5E6B63DEA7BE8E0C4FE0C05039BB0A5F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Empty.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F1BDAEB9270807C789F193AA2A0030A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>04B040FCA0077D851B4EEB91C5ABCA44</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>5FA6649A75DE17377AE0BFA6368BBCB6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>39D6E15228F2049C2BAF7FAEF34505AD</string>
+			<string>771F3A420728C1191DEF2EC739DEAAE4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>606A219B918881A70A78CD91EACDA8F7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>04A7906D2CF9D5B29AF1F8AB7911271E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>608B49B5DDACC601EE8044A1931993F9</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>B580BEC7E92B10FC3C82CD96A459AF5D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>64ACD90BE8F69E7FD4BDFC22146B42DF</string>
+				<string>DDF29492FA055C53559A30D4C6E1EE1E</string>
+				<string>B5AE91D1E4458566D1507A193595D7D6</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Cosmos</string>
+			<key>productName</key>
+			<string>Cosmos</string>
+			<key>productReference</key>
+			<string>6FD25746E61BBD12B941A80AD75EA7AB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>60F9139BDD38565B78214C4FC5F5729D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>1CCC465977B19110CC61851C3E540260</string>
+			<string>93DE0388D42E63F95AEA352D0CFB4A75</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1191,71 +1375,100 @@
 				</array>
 			</dict>
 		</dict>
-		<key>637A29237D2D12D3CFCAE92B65D60D80</key>
+		<key>61DA4425BAB011B03E217D73EA33F729</key>
 		<dict>
-			<key>fileRef</key>
-			<string>ABAD4A2F8C3D150C75FDF0274B9CD1D5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
+			<key>baseConfigurationReference</key>
+			<string>72C2E86210218D79153B2B9CD0EFF01E</string>
+			<key>buildSettings</key>
 			<dict>
-				<key>ATTRIBUTES</key>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-RoastiOS/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<array>
-					<string>Public</string>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
 				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-RoastiOS/Pods-RoastiOS.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_RoastiOS</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>SWIFT_OPTIMIZATION_LEVEL</key>
+				<string>-Onone</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
 			</dict>
-		</dict>
-		<key>6646DA26298257396C7FFE141BB84CC3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>688A7935A9B8DE22442738115589EDA2</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
 		</dict>
-		<key>66538CE9CB8CE00B3DF18005DBD37971</key>
+		<key>62653C1774708D4822285FCFA3F2B35B</key>
 		<dict>
-			<key>fileRef</key>
-			<string>46D652E1A35CE55F0E670C7AB1A1949D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>665E873ECE0CF6D809D989300697E0E7</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
 			<key>name</key>
-			<string>FirebaseUI.framework</string>
+			<string>FirebaseLoginViewController.xib</string>
 			<key>path</key>
-			<string>FirebaseUI.framework</string>
+			<string>FirebaseUI/Auth/Resources/FirebaseLoginViewController.xib</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>66C6DE1B967EE1DB787BC81F3DAD3BC5</key>
+		<key>62A8CA31EA35172D3375E11586921F82</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D81CB859890FC8F50BEB918CEE36C437</string>
+			<string>8059950542BBA0CC39BC7F58384CF8DA</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
 		</dict>
-		<key>688A7935A9B8DE22442738115589EDA2</key>
+		<key>63ECC77E4E536666556C8D2791280861</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B80FC1FD0D126DB1589A782B91266AD6</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>64167F0C8C034031462CE8A76CC7E16F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1263,15 +1476,101 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseArrayDelegate.h</string>
 			<key>path</key>
-			<string>FirebaseServerValue.h</string>
+			<string>FirebaseUI/Core/API/FirebaseArrayDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>649F583A5D005C839DE9BC6A13B05E8C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BE788D8C48080AC41B68B278873FCB05</string>
+				<string>6E38552997D9DBFEA3467F3B13D5D5D4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Password</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>64ACD90BE8F69E7FD4BDFC22146B42DF</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9D1D58A5ED379ABDA6BF567CE70A6372</string>
+				<string>3E73DB65BEC900EFC6EC35C5F2A526B3</string>
+				<string>CC00126E443C3CEEFA221930E1B0CC54</string>
+				<string>2336A7F0F45440935556D3DDAC798E27</string>
+				<string>984ACF077007E44906F6A2F419E3D3C9</string>
+				<string>A0C58A338DA547DC3EAA5CD10A7D305E</string>
+				<string>299992941CFA463D0A7204190D39FA73</string>
+				<string>D7453EEDB3CD57C33612C94FCBF8A57E</string>
+				<string>883E1BE9856159DB1EBBEBEEA85D8199</string>
+				<string>DF717A08CF1193FFCA4FE75041293A18</string>
+				<string>3EFCCC931EFB340108AB20B34C9FD626</string>
+				<string>62A8CA31EA35172D3375E11586921F82</string>
+				<string>A84E190C472D28E1EB771327D55A0257</string>
+				<string>7CCF424046BEED00EB99738D76C64132</string>
+				<string>63ECC77E4E536666556C8D2791280861</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6646DA26298257396C7FFE141BB84CC3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9B0216385777E8F7A2E36216463FCE4E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>66C6DE1B967EE1DB787BC81F3DAD3BC5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6A38A34E0DC69ED7BD75E41339DCDFEA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>67BA38DF6C387221FE43972BFA8BBB25</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseLoginButton.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Implementation/FirebaseLoginButton.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>69347FD1398A6298D8C1CFDD21F7EB19</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8C0EB7D6876C5E259AE346981A3AA5C4</string>
+			<string>1A0100C0A7E35FA3DABC2ED613B14298</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1324,7 +1623,20 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>6F766A6599D052C325B829CF98547B35</key>
+		<key>6A38A34E0DC69ED7BD75E41339DCDFEA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FirebaseUI-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6C80F12B00E7D58C9045A224C3E2E1E9</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1333,11 +1645,52 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FirebasePasswordAuthProvider.h</string>
+			<string>XCodeMacros.h</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebasePasswordAuthProvider.h</string>
+			<string>FirebaseUI/Util/XCodeMacros.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6D220B87CC897A9C9A73CDB5E9CC4E2A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>FirebaseUI.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E38552997D9DBFEA3467F3B13D5D5D4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebasePasswordAuthProvider.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Implementation/FirebasePasswordAuthProvider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6FD25746E61BBD12B941A80AD75EA7AB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Cosmos.framework</string>
+			<key>path</key>
+			<string>Cosmos.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>7211FDBFD451AA6517F585846E4F97D3</key>
 		<dict>
@@ -1366,20 +1719,51 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>736EEDFCC9BBDF6A99D5C2F726A77E69</key>
+		<key>7451744A27C58C77FCF11C00FE610A6C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosSettings.swift</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Cosmos/CosmosSettings.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>76FDCE4CE5FE7BBC85059A885EB37BE8</key>
+		<key>74CCF630A24B4B00C80531BBAA517053</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>EB5C1FD54875F6B9C90ED6FAA4A2257D</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5BC81A7289025C02193E3262B13BF62F</string>
+				<string>C2E4CC35EA336AF7B2C277710C7384DC</string>
+				<string>5F1BDAEB9270807C789F193AA2A0030A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>4B26FBE79C809DFE5A51A35CAB9F412F</string>
+				<string>CB8631AE457259D36760562CE3C7A6D0</string>
+				<string>24D6B95BF976A6D0450D414E5AF412FF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-RoastiOS</string>
+			<key>productName</key>
+			<string>Pods-RoastiOS</string>
+			<key>productReference</key>
+			<string>C68B296E2E7BBC53B82A951C008945DB</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>771F3A420728C1191DEF2EC739DEAAE4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1388,9 +1772,22 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FirebaseLoginButton.m</string>
+			<string>FirebaseAuthProvider.m</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebaseLoginButton.m</string>
+			<string>FirebaseUI/Auth/Implementation/FirebaseAuthProvider.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>77D5DE12804A6B9E88DA421720B9A65B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FirebaseApp.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1407,23 +1804,10 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>7950BDA8B446C82F7A6A57BE2C961290</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FAuthData.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>79A5CE730633939C4123D3AD7326F4C7</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D9FE6A879239F80D83E0A5A429889939</string>
+			<string>6C80F12B00E7D58C9045A224C3E2E1E9</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1463,7 +1847,85 @@
 		<key>7B16A9FC96C58FF56ABBBA9940BDF4CA</key>
 		<dict>
 			<key>fileRef</key>
-			<string>F0CAC0D8C70C62871E48C32D26C2B71A</string>
+			<string>9F7329E305C873CCF6BB1806E12EB0BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>7B2D75151D56F30CD00907ABB34B4D22</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>FirebaseCollectionViewDataSource.m</string>
+			<key>path</key>
+			<string>FirebaseUI/Core/Implementation/FirebaseCollectionViewDataSource.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7B8F7A2F6F73F307DE3A3DA223FD1F2F</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>839FFAD07D666FF4C15C548B39899638</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/Cosmos/Cosmos-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Cosmos/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>9.3</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Cosmos/Cosmos.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>Cosmos</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>7CCF424046BEED00EB99738D76C64132</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8147CA6D57AA1E7ED225BEA54C8F13C1</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1473,8 +1935,8 @@
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>2E22F74175BDFBCB229CA66A9F3D20DD</string>
-				<string>DA28C04578954C68746EBFBA899ADF4F</string>
-				<string>C501A336577D7FCB17F3773B5FC6E7F3</string>
+				<string>D9542310D1EED1E4171EFECF355C647F</string>
+				<string>DBE8973B086A825650FE3DF9B3E10658</string>
 				<string>437CFDE7D29304474A2325A32D2EB3B9</string>
 			</array>
 			<key>isa</key>
@@ -1482,10 +1944,40 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>8059950542BBA0CC39BC7F58384CF8DA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosTouchTarget.swift</string>
+			<key>path</key>
+			<string>Cosmos/Helpers/CosmosTouchTarget.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8147CA6D57AA1E7ED225BEA54C8F13C1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>StarFillMode.swift</string>
+			<key>path</key>
+			<string>Cosmos/StarFillMode.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>82E96D87DE082D4790DB1C23DE00F100</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>175C5A957F36363282804BE8B775880C</string>
+			<string>4D23399E9EEED76F97E606031D33C6F2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1553,27 +2045,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>8426A2C655A4E0D8D3DF03644CDEA682</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D0DFE44A0073494898AA87CB0BBFAC06</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8802B6B5BF1160C1769E7686CCC5B50B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FirebaseUI-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C0EB7D6876C5E259AE346981A3AA5C4</key>
+		<key>839FFAD07D666FF4C15C548B39899638</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1582,166 +2054,18 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>FirebaseUI.xcconfig</string>
+			<string>Cosmos.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8D869C8671BC360FFB4B9A4BB2A635DF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FirebaseTableViewDataSource.m</string>
-			<key>path</key>
-			<string>FirebaseUI/Core/Implementation/FirebaseTableViewDataSource.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E5C1EC907ECB4A51CD0A01D3F63ADA5</key>
+		<key>8426A2C655A4E0D8D3DF03644CDEA682</key>
 		<dict>
 			<key>fileRef</key>
-			<string>6F766A6599D052C325B829CF98547B35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8ED356B60A4502441E5516C9EF16E01F</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>69347FD1398A6298D8C1CFDD21F7EB19</string>
-				<string>DD6B0DA03F5A36AF6D39FC3C484FFA2B</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>92960EA96E220C7F1D02EB73A6F4BE89</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8802B6B5BF1160C1769E7686CCC5B50B</string>
+			<string>94F7F910579C8C81142E528E3A668C20</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>92A9233FDB219D533010C14D463911E1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FAuthType.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>93621A0F1A04F2592ED8C2FD3803D97E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1D5CBA62A79A47FEB130F718004837CD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>938A00F01B5CD26B1ABAADDEF740109B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseLoginViewController.h</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebaseLoginViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>95C2A7E7CC695938515F260312643BA7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-RoastiOS-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>966E75B7CB7C80F38A7D11A9B791FAF3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseArrayDelegate.h</string>
-			<key>path</key>
-			<string>FirebaseUI/Core/API/FirebaseArrayDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9A11E83DD44E7C33653E9D6A3CA0174B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FQuery.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9ADB4075E969429094AEF3E7D4ADDA4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FirebaseAuthDelegate.h</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/API/FirebaseAuthDelegate.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9BAF572286D9DF885592E5E182625E14</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>A1D7B6FDEC0D33F28D6BA345B33891AF</string>
-				<string>9D41F82E319B30647B31A400C8A39A82</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9D41F82E319B30647B31A400C8A39A82</key>
+		<key>842E35C699F7D850E8FA19593CCD03C6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
 			<string>202EE5B64B3FF71C90E4F54F6F7FA54C</string>
@@ -1803,7 +2127,97 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>9DA374E0B66CC5B4A21A438B8FF70FF4</key>
+		<key>85DDECBDE62D9646D634EE919ED77DB2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Firebase-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>87D223FEBF67B4BF8C33642927D38DA5</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>B7AC9326D819482593FE118E915409D7</string>
+			<key>remoteInfo</key>
+			<string>Firebase</string>
+		</dict>
+		<key>883E1BE9856159DB1EBBEBEEA85D8199</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D2BBA8E93B0B0CD584F34F2C37496E9F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8A00CA730FEEE810F5E35843A992DE65</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseAppDelegate.h</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/API/FirebaseAppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8E5C1EC907ECB4A51CD0A01D3F63ADA5</key>
+		<dict>
+			<key>fileRef</key>
+			<string>BE788D8C48080AC41B68B278873FCB05</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8ED356B60A4502441E5516C9EF16E01F</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>69347FD1398A6298D8C1CFDD21F7EB19</string>
+				<string>DD6B0DA03F5A36AF6D39FC3C484FFA2B</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>92960EA96E220C7F1D02EB73A6F4BE89</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D004E23E50FE4872BA8FE9C210C39966</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93621A0F1A04F2592ED8C2FD3803D97E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7B2D75151D56F30CD00907ABB34B4D22</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>93DE0388D42E63F95AEA352D0CFB4A75</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1812,11 +2226,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Firebase.h</string>
+			<string>Firebase-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>9DBFCE5E2853868F0871183A25B334F8</key>
+		<key>94F7F910579C8C81142E528E3A668C20</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1825,73 +2239,99 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>name</key>
-			<string>FirebaseAppDelegate.m</string>
+			<string>FirebaseDataSource.m</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebaseAppDelegate.m</string>
+			<string>FirebaseUI/Core/Implementation/FirebaseDataSource.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>A1D7B6FDEC0D33F28D6BA345B33891AF</key>
+		<key>95C2A7E7CC695938515F260312643BA7</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>72C2E86210218D79153B2B9CD0EFF01E</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-RoastiOS/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>9.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-RoastiOS/Pods-RoastiOS.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_RoastiOS</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-RoastiOS-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>984ACF077007E44906F6A2F419E3D3C9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4AD45CA0D0078A78A1F5543FE118DCEF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9975C88506B4266BDAB1298E4BFDF5E3</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B0216385777E8F7A2E36216463FCE4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FirebaseServerValue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9B106EB7FBC6CCEAE4F868C5F5C46497</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FEventType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9D1D58A5ED379ABDA6BF567CE70A6372</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44A23105349D45BB5EE2A3BCBCBEDED7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9F7329E305C873CCF6BB1806E12EB0BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Assets.xcassets</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/Resources/Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A0C58A338DA547DC3EAA5CD10A7D305E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2F5E1913BEEADF089CDC68C8A7C7F8FF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>A245A96712843BBE0819631D65A4229E</key>
 		<dict>
@@ -1909,9 +2349,37 @@
 		<key>A37A144B3C0C73F2B5303BAF8B1A42BE</key>
 		<dict>
 			<key>fileRef</key>
-			<string>76FDCE4CE5FE7BBC85059A885EB37BE8</string>
+			<string>67BA38DF6C387221FE43972BFA8BBB25</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>A480A518879D6A36CA63D35E7F76F02E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FAuthType.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A5560D545C7EFF13F4B92BB9EF789244</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosAccessibility.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosAccessibility.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A56A3CE3CE70E3C06F4E2DEE7255BDB2</key>
 		<dict>
@@ -1925,6 +2393,21 @@
 			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/SystemConfiguration.framework</string>
 			<key>sourceTree</key>
 			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>A70C9C8A5E2226ACA03E6CBDF5AF1650</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosRating.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosRating.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>A7E10F383DCD59079712A57B50DCF88E</key>
 		<dict>
@@ -1942,18 +2425,40 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>AAA3BF0C24C946C2097CE14E40F02649</key>
+		<key>A84E190C472D28E1EB771327D55A0257</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>33D2584F5C8AA7C2070A8AC4781AECCD</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>C00E0D4692F6BADBDC4CFE77F3B167F6</string>
-			<key>remoteInfo</key>
-			<string>FirebaseUI</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A9640651C7EEB9194CB560967D318EF5</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>5E6B63DEA7BE8E0C4FE0C05039BB0A5F</string>
+				<string>D2A14804E534B1F7790915485150F04B</string>
+				<string>A480A518879D6A36CA63D35E7F76F02E</string>
+				<string>B489FE69B4BC9350E36B206EA3599718</string>
+				<string>D82D8E9F27E3EDE5ACA381CE02488029</string>
+				<string>9B106EB7FBC6CCEAE4F868C5F5C46497</string>
+				<string>B2615143D9DE6453C4E03FF98B51AA67</string>
+				<string>77D5DE12804A6B9E88DA421720B9A65B</string>
+				<string>9B0216385777E8F7A2E36216463FCE4E</string>
+				<string>D7DDEF386DA119BA1736FDEB9483575F</string>
+				<string>3F9A8E8D1D6A4A7B7D8BFDA59287029F</string>
+				<string>49B4206BDAA0E170F66826E8E8F48E3D</string>
+				<string>AD7A976D84DD36ADA7648C21F73B7327</string>
+				<string>F2E48644AF73636CBB8D93A56EBC8320</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Firebase</string>
+			<key>path</key>
+			<string>Firebase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>ABAD4A2F8C3D150C75FDF0274B9CD1D5</key>
 		<dict>
@@ -1965,6 +2470,32 @@
 			<string>sourcecode.c.h</string>
 			<key>path</key>
 			<string>Pods-RoastiOS-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AD7A976D84DD36ADA7648C21F73B7327</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E25E6527B1F6BE43C904727BC5A5BD04</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B2615143D9DE6453C4E03FF98B51AA67</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Firebase.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1992,46 +2523,80 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B4EF4CC8F5F5F994B277FCD2BDFB21DF</key>
+		<key>B489FE69B4BC9350E36B206EA3599718</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>FConfig.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B51E111373AC02625E20B686429BDD4C</key>
+		<key>B500BBB5BD2593924C5F26E5B765C3B0</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>9BAF572286D9DF885592E5E182625E14</string>
-			<key>buildPhases</key>
+			<key>children</key>
 			<array>
-				<string>0B4B29023ED434453ED08E877E02C10C</string>
-				<string>32ED23BCC94D0CF32C30D461DCCBD52F</string>
-				<string>DC853B5A90A2E516A68F7087DF65CE16</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>C058B08C4D54A692D4F32CB5AECA2B53</string>
-				<string>E3BDF93DA32F1DE1F624708263FDB0DB</string>
+				<string>361220C1D499BB6C852F1B73B8E3BAD4</string>
+				<string>839FFAD07D666FF4C15C548B39899638</string>
+				<string>44A23105349D45BB5EE2A3BCBCBEDED7</string>
+				<string>D47D5CB88F7D4F6C06E7BC231F1CC2AF</string>
+				<string>04A7906D2CF9D5B29AF1F8AB7911271E</string>
+				<string>9975C88506B4266BDAB1298E4BFDF5E3</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Pods-RoastiOS</string>
-			<key>productName</key>
-			<string>Pods-RoastiOS</string>
-			<key>productReference</key>
-			<string>4A267DA4356F0E9A4E8C8EC6EA1F360E</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Cosmos</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B580BEC7E92B10FC3C82CD96A459AF5D</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>2F5CAD8AA7E22B78B73735E2F42B4ABD</string>
+				<string>7B8F7A2F6F73F307DE3A3DA223FD1F2F</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>B5AE91D1E4458566D1507A193595D7D6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>606A219B918881A70A78CD91EACDA8F7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B5AF957F6EFF4389E8FAD5FF8B3D7324</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosTouch.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosTouch.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B7AC9326D819482593FE118E915409D7</key>
 		<dict>
@@ -2054,14 +2619,29 @@
 			<key>productName</key>
 			<string>Firebase</string>
 			<key>productReference</key>
-			<string>F16FFE392B9AF4C3A0B7AD91DCB1B098</string>
+			<string>C94BCED0553189D20F307035300FCC3A</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>B80FC1FD0D126DB1589A782B91266AD6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>StarLayer.swift</string>
+			<key>path</key>
+			<string>Cosmos/StarLayer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B9F2C3236872A14DE2F3B4D8839CB2B3</key>
 		<dict>
 			<key>fileRef</key>
-			<string>E24EFBADB0FA52DF44025054653350CC</string>
+			<string>6E38552997D9DBFEA3467F3B13D5D5D4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -2081,6 +2661,21 @@
 			<string>SOURCE_ROOT</string>
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>BE788D8C48080AC41B68B278873FCB05</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebasePasswordAuthProvider.h</string>
+			<key>path</key>
+			<string>FirebaseUI/Auth/API/FirebasePasswordAuthProvider.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>C00E0D4692F6BADBDC4CFE77F3B167F6</key>
 		<dict>
@@ -2106,25 +2701,14 @@
 			<key>productName</key>
 			<string>FirebaseUI</string>
 			<key>productReference</key>
-			<string>665E873ECE0CF6D809D989300697E0E7</string>
+			<string>548D5FFD79763F8DD32E4C5E8381BDBA</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>C058B08C4D54A692D4F32CB5AECA2B53</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Firebase</string>
-			<key>target</key>
-			<string>B7AC9326D819482593FE118E915409D7</string>
-			<key>targetProxy</key>
-			<string>4DCDA1CA668729474AE197284C8A3A19</string>
 		</dict>
 		<key>C23FCF31260D47CEC1494A292DAA1A1E</key>
 		<dict>
 			<key>fileRef</key>
-			<string>7950BDA8B446C82F7A6A57BE2C961290</string>
+			<string>D2A14804E534B1F7790915485150F04B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2135,20 +2719,76 @@
 				</array>
 			</dict>
 		</dict>
-		<key>C501A336577D7FCB17F3773B5FC6E7F3</key>
+		<key>C2E4CC35EA336AF7B2C277710C7384DC</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>F16FFE392B9AF4C3A0B7AD91DCB1B098</string>
-				<string>665E873ECE0CF6D809D989300697E0E7</string>
-				<string>4A267DA4356F0E9A4E8C8EC6EA1F360E</string>
+				<string>35C71E7DAE4F134CF1B947E6D4E708FA</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C3A814E492BBE3BE057140DF31597BD6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>FirebaseUI-prefix.pch</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C68B296E2E7BBC53B82A951C008945DB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_RoastiOS.framework</string>
+			<key>path</key>
+			<string>Pods_RoastiOS.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C84B0AB8817552C174924C43A7B1A786</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseArray.h</string>
+			<key>path</key>
+			<string>FirebaseUI/Core/API/FirebaseArray.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C94BCED0553189D20F307035300FCC3A</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Firebase.framework</string>
+			<key>path</key>
+			<string>Firebase.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>C9C4FF5699906114AE143CB2D55C0F74</key>
 		<dict>
@@ -2163,28 +2803,28 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CB06D1F4AABFA66C9CC78F8D85DA65F1</key>
+		<key>CB8631AE457259D36760562CE3C7A6D0</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>1A4633394F5335F729F404A157827D86</string>
-				<string>2AD722D45805D540892897F197912E3E</string>
-				<string>1BB5C4DA387D1402C3F62BF1619C90A8</string>
-				<string>268425EFE08EE394EBCC660FA930E9D0</string>
-			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXTargetDependency</string>
 			<key>name</key>
-			<string>FirebaseUI</string>
-			<key>path</key>
-			<string>FirebaseUI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Firebase</string>
+			<key>target</key>
+			<string>B7AC9326D819482593FE118E915409D7</string>
+			<key>targetProxy</key>
+			<string>87D223FEBF67B4BF8C33642927D38DA5</string>
+		</dict>
+		<key>CC00126E443C3CEEFA221930E1B0CC54</key>
+		<dict>
+			<key>fileRef</key>
+			<string>28D3BDE0ADD98F073691EC2599A86F45</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>CCCA826AE098E5621187F457CBD2C5CF</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2ABAD124D8EC30B86F968B7926810BCF</string>
+			<string>519AC7959F09012CA2CB41CE5D4ED9EE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2198,7 +2838,7 @@
 		<key>CD6D424034129C96FAA9AE93F9E83164</key>
 		<dict>
 			<key>fileRef</key>
-			<string>53E668ACF564C5236997B95C6E39F848</string>
+			<string>F6EFB722CC5615A46D23A495C3151CC6</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2209,7 +2849,41 @@
 				</array>
 			</dict>
 		</dict>
-		<key>CE62BAB1EBE477990D539C1D13359CC5</key>
+		<key>CF4E9B92640441F192D40D1FC6526835</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1A2267BB6CCAB7BBA2F0126FAEF3AD86</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D004E23E50FE4872BA8FE9C210C39966</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>FirebaseUI-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D1D19F50DB4486583E6017BA442AA9A9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>42EDD910144FAF66E65C798B2EE1012D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D2A14804E534B1F7790915485150F04B</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2218,50 +2892,29 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FConfig.h</string>
+			<string>FAuthData.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CF4E9B92640441F192D40D1FC6526835</key>
-		<dict>
-			<key>fileRef</key>
-			<string>07C8CFBEEF335FFB03633516A88C000A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D0DFE44A0073494898AA87CB0BBFAC06</key>
+		<key>D2BBA8E93B0B0CD584F34F2C37496E9F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>sourcecode.swift</string>
 			<key>name</key>
-			<string>FirebaseDataSource.m</string>
+			<string>CosmosSize.swift</string>
 			<key>path</key>
-			<string>FirebaseUI/Core/Implementation/FirebaseDataSource.m</string>
+			<string>Cosmos/CosmosSize.swift</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D1D19F50DB4486583E6017BA442AA9A9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DBFCE5E2853868F0871183A25B334F8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>D2F232F4F71BDD65CDD4EBBF6B74EBA1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>175C5A957F36363282804BE8B775880C</string>
+			<string>4D23399E9EEED76F97E606031D33C6F2</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2340,7 +2993,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>C501A336577D7FCB17F3773B5FC6E7F3</string>
+			<string>DBE8973B086A825650FE3DF9B3E10658</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2349,10 +3002,24 @@
 			<string></string>
 			<key>targets</key>
 			<array>
+				<string>608B49B5DDACC601EE8044A1931993F9</string>
 				<string>B7AC9326D819482593FE118E915409D7</string>
 				<string>C00E0D4692F6BADBDC4CFE77F3B167F6</string>
-				<string>B51E111373AC02625E20B686429BDD4C</string>
+				<string>74CCF630A24B4B00C80531BBAA517053</string>
 			</array>
+		</dict>
+		<key>D47D5CB88F7D4F6C06E7BC231F1CC2AF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Cosmos-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D6011D6CD44ED2A3CC4A3B615AADE602</key>
 		<dict>
@@ -2361,10 +3028,17 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>D7453EEDB3CD57C33612C94FCBF8A57E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7451744A27C58C77FCF11C00FE610A6C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D78A979C679A303C6D0480416B48D247</key>
 		<dict>
 			<key>fileRef</key>
-			<string>966E75B7CB7C80F38A7D11A9B791FAF3</string>
+			<string>64167F0C8C034031462CE8A76CC7E16F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2375,7 +3049,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>D81CB859890FC8F50BEB918CEE36C437</key>
+		<key>D7DDEF386DA119BA1736FDEB9483575F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2384,11 +3058,11 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FirebaseUI-umbrella.h</string>
+			<string>FMutableData.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D9FE6A879239F80D83E0A5A429889939</key>
+		<key>D82D8E9F27E3EDE5ACA381CE02488029</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2396,19 +3070,18 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>XCodeMacros.h</string>
 			<key>path</key>
-			<string>FirebaseUI/Util/XCodeMacros.h</string>
+			<string>FDataSnapshot.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DA28C04578954C68746EBFBA899ADF4F</key>
+		<key>D9542310D1EED1E4171EFECF355C647F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>1E00C795F872689AFA285E2330BE341F</string>
-				<string>CB06D1F4AABFA66C9CC78F8D85DA65F1</string>
+				<string>1FDBD95DDC727F5A613E457CBE723EC7</string>
+				<string>A9640651C7EEB9194CB560967D318EF5</string>
+				<string>1004929348836E14305779DFBE8FFCC6</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -2417,25 +3090,24 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DAF6BAB2E80EB63CA5D5D42C42808193</key>
+		<key>D9DD5526B1393492041CF8C5BF6B3CBD</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>9F7329E305C873CCF6BB1806E12EB0BB</string>
+				<string>62653C1774708D4822285FCFA3F2B35B</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FirebaseLoginViewController.m</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebaseLoginViewController.m</string>
+			<string>Resources</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DB05A9DD8244D10C28B6915C514AE15F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0AA1C6FD3A5E2FE60F59A657A59FD469</string>
+			<string>D7DDEF386DA119BA1736FDEB9483575F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2446,18 +3118,21 @@
 				</array>
 			</dict>
 		</dict>
-		<key>DC853B5A90A2E516A68F7087DF65CE16</key>
+		<key>DBE8973B086A825650FE3DF9B3E10658</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>637A29237D2D12D3CFCAE92B65D60D80</string>
+				<string>6FD25746E61BBD12B941A80AD75EA7AB</string>
+				<string>C94BCED0553189D20F307035300FCC3A</string>
+				<string>548D5FFD79763F8DD32E4C5E8381BDBA</string>
+				<string>C68B296E2E7BBC53B82A951C008945DB</string>
 			</array>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>DD395AF44199AECBE4D5F0C3D89B0A22</key>
 		<dict>
@@ -2486,7 +3161,7 @@
 		<key>DD6B0DA03F5A36AF6D39FC3C484FFA2B</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8C0EB7D6876C5E259AE346981A3AA5C4</string>
+			<string>1A0100C0A7E35FA3DABC2ED613B14298</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2539,6 +3214,41 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
+		<key>DDF29492FA055C53559A30D4C6E1EE1E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>227182790ECBCA9F05EBE542662DC4F2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>DE5AF1D4CC7025B07F162C3A243747F2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>name</key>
+			<string>CosmosLayerHelper.swift</string>
+			<key>path</key>
+			<string>Cosmos/CosmosLayerHelper.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF717A08CF1193FFCA4FE75041293A18</key>
+		<dict>
+			<key>fileRef</key>
+			<string>39230406E38F896E636FBE6CB68D01EF</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>E1A883FEBDEED9B85D90D6BE2080F218</key>
 		<dict>
 			<key>fileRef</key>
@@ -2546,31 +3256,18 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>E24EFBADB0FA52DF44025054653350CC</key>
+		<key>E25E6527B1F6BE43C904727BC5A5BD04</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FirebasePasswordAuthProvider.m</string>
+			<string>archive.ar</string>
 			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebasePasswordAuthProvider.m</string>
+			<string>libFirebaseStatic.a</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E3BDF93DA32F1DE1F624708263FDB0DB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FirebaseUI</string>
-			<key>target</key>
-			<string>C00E0D4692F6BADBDC4CFE77F3B167F6</string>
-			<key>targetProxy</key>
-			<string>AAA3BF0C24C946C2097CE14E40F02649</string>
 		</dict>
 		<key>E3FBB5B462A14E8ACC9B340227DE4BE1</key>
 		<dict>
@@ -2582,7 +3279,7 @@
 		<key>E60FA42EEC3ECC48701DB55986D25D69</key>
 		<dict>
 			<key>fileRef</key>
-			<string>CE62BAB1EBE477990D539C1D13359CC5</string>
+			<string>B489FE69B4BC9350E36B206EA3599718</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2596,7 +3293,7 @@
 		<key>E8B534D15D2B25919ACD898217266891</key>
 		<dict>
 			<key>fileRef</key>
-			<string>51F6B5FEE45D5E58A7DF86B49BEEB6C9</string>
+			<string>D82D8E9F27E3EDE5ACA381CE02488029</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -2607,37 +3304,68 @@
 				</array>
 			</dict>
 		</dict>
-		<key>F0CAC0D8C70C62871E48C32D26C2B71A</key>
+		<key>EB5C1FD54875F6B9C90ED6FAA4A2257D</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>name</key>
-			<string>Assets.xcassets</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/Resources/Assets.xcassets</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F16FFE392B9AF4C3A0B7AD91DCB1B098</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
+			<key>buildConfigurations</key>
+			<array>
+				<string>61DA4425BAB011B03E217D73EA33F729</string>
+				<string>842E35C699F7D850E8FA19593CCD03C6</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
 			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Firebase.framework</string>
-			<key>path</key>
-			<string>Firebase.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>F17ECC6089F40FC4596F003E8A912E6E</key>
+		<key>F05449B762824EC42C48AB817279B03B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>46D652E1A35CE55F0E670C7AB1A1949D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F2E48644AF73636CBB8D93A56EBC8320</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>53CB964C79024A70D7ED55C4336658C2</string>
+				<string>4D23399E9EEED76F97E606031D33C6F2</string>
+				<string>85DDECBDE62D9646D634EE919ED77DB2</string>
+				<string>15A4EBB3E875D1081C61E174F826AB38</string>
+				<string>93DE0388D42E63F95AEA352D0CFB4A75</string>
+				<string>5BF3376E9B3C6C4DDD30EC720563DAFD</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/Firebase</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F53444DE52C42EFBE0C93A78625D1448</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6D220B87CC897A9C9A73CDB5E9CC4E2A</string>
+				<string>1A0100C0A7E35FA3DABC2ED613B14298</string>
+				<string>D004E23E50FE4872BA8FE9C210C39966</string>
+				<string>C3A814E492BBE3BE057140DF31597BD6</string>
+				<string>6A38A34E0DC69ED7BD75E41339DCDFEA</string>
+				<string>0AE599EC576B224D79DA62EE142A9E79</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>../Target Support Files/FirebaseUI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6EFB722CC5615A46D23A495C3151CC6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2645,72 +3373,56 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>FirebaseApp.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F1B41C9570B7886F17BDECDAA8B0B79B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>FirebaseDataSource.h</string>
+			<string>FirebaseLoginButton.h</string>
 			<key>path</key>
-			<string>FirebaseUI/Core/API/FirebaseDataSource.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F600C0C8034E6915AA3865C0C37D5425</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FirebaseAuthConstants.m</string>
-			<key>path</key>
-			<string>FirebaseUI/Auth/Implementation/FirebaseAuthConstants.m</string>
+			<string>FirebaseUI/Auth/API/FirebaseLoginButton.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>F7F0F4B08608A5327F9BBB155EC3E54D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>0F91242A3623A7EDE7599EE44E7E2C9D</string>
+			<string>62653C1774708D4822285FCFA3F2B35B</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>F95D0BA212524805DB392747D6274605</key>
+		<key>FE438C4A0534157A847673A14550B18E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>FirebaseAuthDelegate.h</string>
 			<key>path</key>
-			<string>libFirebaseStatic.a</string>
+			<string>FirebaseUI/Auth/API/FirebaseAuthDelegate.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FF0012092BCC79AA463BF3432AD4B006</key>
+		<key>FF3D69CD1A14263D60519FBC6443BC4F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>F0CAC0D8C70C62871E48C32D26C2B71A</string>
-				<string>0F91242A3623A7EDE7599EE44E7E2C9D</string>
+				<string>8A00CA730FEEE810F5E35843A992DE65</string>
+				<string>42EDD910144FAF66E65C798B2EE1012D</string>
+				<string>272FB34C58F891DBCA1AE3D50F27A85F</string>
+				<string>500033F7B845FF823DAD680772471FFD</string>
+				<string>FE438C4A0534157A847673A14550B18E</string>
+				<string>10435AED2B4DF4E0200D629F3D9E317B</string>
+				<string>771F3A420728C1191DEF2EC739DEAAE4</string>
+				<string>F6EFB722CC5615A46D23A495C3151CC6</string>
+				<string>67BA38DF6C387221FE43972BFA8BBB25</string>
+				<string>38A82DA6FDB924402A18030E50E79421</string>
+				<string>0F0261DFC5B5B140895BD20EF79D4F7B</string>
+				<string>D9DD5526B1393492041CF8C5BF6B3CBD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Resources</string>
+			<string>AuthHelper</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

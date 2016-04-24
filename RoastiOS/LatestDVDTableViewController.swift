@@ -42,7 +42,8 @@ class LatestDVDTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
+        let cell = tableView.dequeueReusableCellWithIdentifier("defaultMovieCell", forIndexPath: indexPath)
+        //UITableViewCell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
         if let movieTitle = self.items[indexPath.row]["title"] as! String? {
             cell.textLabel!.text = movieTitle
         } else {
