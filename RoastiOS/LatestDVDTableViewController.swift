@@ -53,6 +53,14 @@ class LatestDVDTableViewController: UITableViewController {
         return cell
     }
     
-    
-    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if (segue.identifier == "ShowDetail") {
+            let targetView = segue.destinationViewController as! MovieDetailViewController
+            if let selectedCell = sender as? UITableViewCell {
+                let index = self.tableView.indexPathForCell(selectedCell)
+                let values = self.items[(index?.row)!]
+                targetView.movie = Movie(title: values["title"] as! String?, id: values["id"] as! String?)
+            }
+        }
+    }
 }
